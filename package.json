@@ -3,13 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "main": "electron/electron.ts",
   "scripts": {
-    "dev": "concurrently \"vite\" \"wait-on http://localhost:5174 && electron .\"",
-    "start": "electron .",
-    "build": "vite build && electron-builder",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
     "antd": "^5.24.6",
