@@ -1,0 +1,26 @@
+.footer {
+  text-align: center;
+  padding: 15px;
+  background-color: rgb(209, 209, 209);
+  border-top: 1px solid rgb(207, 207, 207);
+}
+
+.footerContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.footerLink {
+  font-size: 22px;
+  color: var(--highlight-color);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.3s ease;
+}
+
+.footerLink:hover {
+  color: rgb(255, 114, 114);
+}
